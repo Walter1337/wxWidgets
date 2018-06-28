@@ -50,7 +50,7 @@
    (do this if you're trying to build the smallest possible library) or give an
    error and abort (default as leads to least surprising behaviour)
  */
-#define wxABORT_ON_CONFIG_ERROR
+//#define wxABORT_ON_CONFIG_ERROR
 
 /*
    global features
