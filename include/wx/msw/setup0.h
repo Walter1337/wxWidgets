@@ -350,7 +350,7 @@
 //
 // Recommended setting: 1 unless compatibility with the official wxWidgets
 // build and/or the existing code is a concern.
-#define wxUSE_STD_CONTAINERS 0
+#define wxUSE_STD_CONTAINERS 1
 
 // Use standard C++ streams if 1 instead of wx streams in some places. If
 // disabled, wx streams are used everywhere and wxWidgets doesn't depend on the
@@ -494,7 +494,7 @@
 //
 // Recommended setting: 1 but may be disabled if you are writing programs
 // running only in C locale anyhow
-#define wxUSE_XLOCALE       1
+#define wxUSE_XLOCALE       0
 
 // Set wxUSE_DATETIME to 1 to compile the wxDateTime and related classes which
 // allow to manipulate dates, times and time intervals.
@@ -748,7 +748,7 @@
 // Default is 1
 //
 // Recommended setting: 1
-#define wxUSE_PROPGRID  1
+#define wxUSE_PROPGRID  0
 
 // Use wxStyledTextCtrl, a wxWidgets implementation of Scintilla.
 //
@@ -762,7 +762,7 @@
 // Default is 1
 //
 // Recommended setting: 1
-#define wxUSE_WEBVIEW 1
+#define wxUSE_WEBVIEW 0
 
 // Use the IE wxWebView backend
 //
@@ -893,7 +893,7 @@
 #define wxUSE_COLOURPICKERCTRL 1    // wxColourPickerCtrl
 #define wxUSE_COMBOBOX      1   // wxComboBox
 #define wxUSE_COMMANDLINKBUTTON 1   // wxCommandLinkButton
-#define wxUSE_DATAVIEWCTRL  1   // wxDataViewCtrl
+#define wxUSE_DATAVIEWCTRL  0   // wxDataViewCtrl
 #define wxUSE_DATEPICKCTRL  1   // wxDatePickerCtrl
 #define wxUSE_DIRPICKERCTRL 1   // wxDirPickerCtrl
 #define wxUSE_EDITABLELISTBOX 1 // wxEditableListBox
@@ -921,7 +921,7 @@
 #define wxUSE_TIMEPICKCTRL  1   // wxTimePickerCtrl
 #define wxUSE_TOGGLEBTN     1   // requires wxButton
 #define wxUSE_TREECTRL      1   // wxTreeCtrl
-#define wxUSE_TREELISTCTRL  1   // wxTreeListCtrl
+#define wxUSE_TREELISTCTRL  0   // wxTreeListCtrl
 
 // Use a status bar class? Depending on the value of wxUSE_NATIVE_STATUSBAR
 // below either wxStatusBar95 or a generic wxStatusBar will be used.
@@ -1065,7 +1065,7 @@
 // ----------------------------------------------------------------------------
 
 // wxAcceleratorTable/Entry classes and support for them in wxMenu(Bar)
-#define wxUSE_ACCEL 1
+#define wxUSE_ACCEL 0
 
 // Use the standard art provider. The icons returned by this provider are
 // embedded into the library as XPMs so disabling it reduces the library size
@@ -1091,7 +1091,7 @@
 #define wxUSE_ARTPROVIDER_TANGO 1
 
 // Hotkey support (currently Windows only)
-#define wxUSE_HOTKEY 1
+#define wxUSE_HOTKEY 0
 
 // Use wxCaret: a class implementing a "cursor" in a text control (called caret
 // under Windows).
@@ -1461,7 +1461,7 @@
 // Use wxHTML-based help controller?
 #define wxUSE_WXHTML_HELP 1
 
-#define wxUSE_CONSTRAINTS 1
+#define wxUSE_CONSTRAINTS 0
                                 // 0 for no window layout constraint system
 
 #define wxUSE_SPLINES     1
@@ -1612,7 +1612,7 @@
 //
 // Recommended setting: 1 if you need to control other applications via OLE
 // Automation, can be safely set to 0 otherwise
-#define wxUSE_OLE_AUTOMATION 1
+#define wxUSE_OLE_AUTOMATION 0
 
 // Set this to 1 to enable wxActiveXContainer class allowing to embed OLE
 // controls in wx.
